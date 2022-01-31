@@ -54,7 +54,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.47</version> <!--注意此处的大版本要和 MySQL 的大版本一致-->
+            <version>5.1.49</version> <!--注意此处的大版本要和 MySQL 的大版本一致-->
         </dependency>
 
         <!--Mybatis-->
@@ -64,7 +64,6 @@
             <version>2.1.3</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -85,7 +84,6 @@
         </dependency>
 
         <!-- 对配置文件中的敏感信息加密 -->
-        <!-- https://mvnrepository.com/artifact/com.github.ulisesbocchio/jasypt-spring-boot-starter -->
         <dependency>
             <groupId>com.github.ulisesbocchio</groupId>
             <artifactId>jasypt-spring-boot-starter</artifactId>
